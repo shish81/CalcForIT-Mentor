@@ -19,6 +19,8 @@ public class Main {
         }
     }
 
+
+    
     public static int calcStart(String input) {
         input = input.trim();
         String[] arrayForSplit = SplitStringUtils.splitInput(input);
