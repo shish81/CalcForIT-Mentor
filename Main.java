@@ -17,12 +17,10 @@ public class Main {
                 return;
             }
         }
-
     }
 
     public static int calcStart(String input) {
         input = input.trim();
-
         String[] arrayForSplit = SplitStringUtils.splitInput(input);
         int operatorCount = countOperators(input);
         if (operatorCount > 1) {
